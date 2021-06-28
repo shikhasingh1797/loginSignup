@@ -1,0 +1,64 @@
+{
+     "user": [
+          {
+               "name": "vg",
+               "password": "uy#1",
+               "profile": {
+                    "dis": "fghj",
+                    "dob": "hjk",
+                    "hobby": "bnm",
+                    "gender": "bn"
+               }
+          },
+          {
+               "name": "vb",
+               "password": "sr@1",
+               "profile": {
+                    "dis": "sfdghg",
+                    "dob": "fghj",
+                    "hobby": "fgh",
+                    "gender": "cvbn"
+               }
+          },
+          {
+               "name": "niya",
+               "password": "as@1",
+               "profile": {
+                    "dis": "fgh",
+                    "dob": "cvbn",
+                    "hobby": "hjkl",
+                    "gender": "cgvbnj"
+               }
+          },
+          {
+               "name": "ma@1",
+               "password": "ma@1",
+               "profile": {
+                    "dis": "dsfghj",
+                    "dob": "f",
+                    "hobby": "gjkl",
+                    "gender": "ghjkl;"
+               }
+          },
+          {
+               "name": "nkkk",
+               "password": "az@1",
+               "profile": {
+                    "dis": "ghjk",
+                    "dob": "hjkl",
+                    "hobby": "hjkl",
+                    "gender": "hjl;"
+               }
+          },
+          {
+               "name": "daya",
+               "password": "ax@3",
+               "profile": {
+                    "dis": "ghjk",
+                    "dob": "hjkl",
+                    "hobby": "jkl",
+                    "gender": "jkl"
+               }
+          }
+     ]
+}
