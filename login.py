@@ -1,8 +1,5 @@
 import json
 user=input("Hello , You want to do login or signup=")
-# dic1={}
-# list1=[]
-# f={}
 if user=="signup":
     name=input("enter your name=")
     l, p, d = 0, 0, 0
@@ -46,7 +43,7 @@ if user=="signup":
                 else:
                     with open("new_details.json", "r") as j:
                         json_data = json.load(j)
-                        print(json_data["user"],"user coming here")
+                        #print(json_data["user"],"user coming here")
                         for i in json_data["user"] : 
                             if i["name"]==name and i["password"]==paas:
                                 print("User already exist , Thank you 🙏")
@@ -68,11 +65,11 @@ if user=="signup":
                             json_data["user"].append(user_name_password)
                             with open("new_details.json", "w") as filehandle:
                                 json.dump(json_data, filehandle,indent=5)
-                                print("You are signup sucessfully")
+                                print("Congratulations , You are signup sucessfully")
         else:
             print("Both password are not same")
     else:
-        print("password length 8 should be there")
+        print("password length 4 should be there")
 
 #Login process        
 else:
